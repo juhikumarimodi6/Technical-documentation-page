@@ -1,0 +1,24 @@
+.grid-container {
+display:grid;
+grid-template-columns:20% 80%;
+padding:5px;
+}
+
+.grid-item {
+border:solid;
+background-color:rgba(238, 130, 238,0.3);
+}
+
+#Header, #Preparation, #about_topic, #topic1, #topic2 {
+background-color:black;
+color:white;
+}
+
+p>a, li>a {
+text-decoration:none;
+color:blue;
+}
+
+li>a:hover,p>a:hover {
+color:red;
+}
